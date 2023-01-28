@@ -1,0 +1,87 @@
+font-face {
+font-family: 'neontubes';
+font-weight: normal;
+font-style: normal;
+font-size: 80px;
+}
+
+
+
+.main {
+
+position: absolute;
+top: 45%;
+left: 37%;
+transform: translate(-30%, -30%);
+white-space: nowrap;
+}
+.main .webdev {
+color: #ffd9e2;
+text-shadow: 0 0 0 transparent, 0 0 10px darkorange, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px darkorange, 0 0 100px darkorange, 0 0 200px darkorange, 0 0 300px darkorange, 0 0 500px darkorange, 0 0 1000px darkorange;
+
+
+
+animation: buzz 0.1s infinite alternate;
+
+}
+
+
+keyframes buzz {
+70% {
+opacity: 0.80;
+}
+}
+
+@keyframes buzz {
+70% {
+opacity: 0.80;
+}
+}
+blink {
+40% {
+opacity: 1;
+}
+42% {
+opacity: 0.8;
+}
+43% {
+opacity: 1;
+}
+45% {
+opacity: 0.2;
+}
+46% {
+opacity: 1;
+}
+}
+keyframes blink {
+40% {
+opacity: 1;
+}
+42% {
+opacity: 0.8;
+}
+43% {
+opacity: 1;
+}
+45% {
+opacity: 0.2;
+}
+46% {
+opacity: 1;
+}
+}
+
+
+
+.main .webdev{
+width: 450px;
+font-size: 130px;
+margin-left: -28%;
+}
+
+
+
+
+}
+

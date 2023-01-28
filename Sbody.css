@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+body{
+       background: black;
+       font-family: 'poppins', cursive;
+}
+.ser{
+       font-family: 'Balsamiq sans', cursive;
+       font-size: 52px;
+       color: orange;
+       font-weight: bold;
+}
+
+#service
+{
+	width: 100%;
+	
+	background: black;
+}
+
+.service-box
+{
+	width: 80%;
+	display: flex:
+	flex-wrap: wrap;
+	
+        margin:auto;
+}
+
+.single-service
+{
+	flex-basis: 48%;
+	text-align: center;
+	border-radius: 7px;
+	margin-bottom: 20px;
+	color: white;
+	position: relative;	
+}
+
+.single-service img
+{
+	width: 40%;
+	border-radius: 7px;
+}
+
+.overlay
+{
+	width: 40%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+        right:25;
+        left:299;
+	border-radius: 7px;
+	cursor: pointer;
+	background: linear-gradient(rgba(0,0,0,0.5),orange);
+	opacity: 0;
+	transition: 1s;
+}
+
+.single-service:hover .overlay
+{
+	opacity: 1;
+}
+
+.service-desc
+{
+	width: 80%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity:0;
+	transition: 1s;
+}
+
+.service-desc p
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+hr
+{
+	background: white;
+	height: 2px;
+	border: 0;
+	margin: 15px auto;
+	width: 30%;
+}
+
+.single-service:hover .service-desc
+{
+	bottom: 40%;
+	opacity: 1;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+	

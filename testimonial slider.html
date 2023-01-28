@@ -1,0 +1,102 @@
+<!doctype html>
+<html> 
+       <head>
+          <title>Reviews</title>
+	      <link rel="stylesheet" href="test.css">
+              <link rel="icon" href="paina.jpg" type="image" >
+       </head>
+       <body>
+           <div class="hero">
+             <h1>REVIEWS</h1>
+	 
+	          <div class="container">
+	              <div class="indicator">
+	                  <span class="btn active"></span>
+			          <span class="btn"></span>
+			          <span class="btn"></span>
+			          <span class="btn"></span>
+	              </div>
+	              <div class="testimonial"> 
+	                  <div class="slide-row" id="slide">
+	                      <div class="slide-col">
+		                      <div class="user-text">
+	                               <p> Helping hands organisation is a good one which has 
+                                            changed lifes of many poor.</p>
+				                  <h3>Rakesh.</h3>
+				                  <p>(Student)</p>
+	                           </div>
+	                           <div class="user-img">
+	                               <img src="rakesh.jpeg">
+	                          </div>
+	                       </div> 
+	                       <div class="slide-col">
+		                       <div class="user-text">
+	                                <p> Helping hands is an socialwelfare website and a pure transparent one 
+                                            ,gone through many programs.</p>
+				                    <h3>Avinash.</h3>
+				                    <p>(Photographer)</p>
+	                           </div>
+	                           <div class="user-img">
+	                               <img src="avi.jpeg">
+	                           </div>
+	                       </div>
+	                       <div class="slide-col">
+		                       <div class="user-text">
+	                                <p> Helping hands organisation is a good one which has 
+                                            changed lifes of many poor.</p>
+				                    <h3>sai.</h3>
+				                    <p>(Student)</p>
+	                           </div>
+	                           <div class="user-img">
+	                               <img src="h.jpeg">
+	                           </div>
+	                       </div>
+	                       <div class="slide-col">
+		                       <div class="user-text">
+	                                <p> Helping hands is an socialwelfare website and a pure transparent one 
+                                            ,gone through many programs.</p>
+				                    <h3>Prem.</h3>
+				                    <p>(Student)</p>
+	                           </div>
+	                           <div class="user-img">
+	                               <img src="vishnu.jpg">
+	                           </div>
+	                       </div>
+                       </div>
+		           </div> 
+               </div> 
+	       </div>
+          <script>
+               var btn = document.getElementsByClassName("btn");
+		       var slide = document.getElementById("slide");
+		       btn[0].onclick = function(){
+		           slide.style.transform = "translateX(0px)";
+				   for(i=0;i<4;i++){
+				       btn[i].classList.remove("active");
+				    }
+				    this.classList.add("active");
+		        }
+		       btn[1].onclick = function(){
+		           slide.style.transform = "translateX(-800px)";
+				   for(i=0;i<4;i++){
+				       btn[i].classList.remove("active");
+				    }
+				    this.classList.add("active");
+		        }
+		        btn[2].onclick = function(){
+		           slide.style.transform = "translateX(-1600px)";
+				   for(i=0;i<4;i++){
+				        btn[i].classList.remove("active");
+				        }
+				        this.classList.add("active");
+		        }
+		        btn[3].onclick = function(){
+		           slide.style.transform = "translateX(-2400px)";
+				   for(i=0;i<4;i++){
+				        btn[i].classList.remove("active");
+				        }
+				        this.classList.add("active");
+		        }
+	      </script>
+       </body>
+   </html>	
